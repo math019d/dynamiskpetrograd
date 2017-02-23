@@ -33,6 +33,20 @@ function visProdukt(produkt) {
 
     klon.querySelector(".data_billede").src = "/imgs/small/" + produkt.billede + "-sm.jpg";
 
+    if (produkt.udsolgt == false) {
+        //produktet er ikke udsolgt
+        //udsolgtstekst skal fjernes
+
+        var udsolgttekst = klon.querySelector(".udsolgttekst");
+        udsolgttekst.parentNode.removeChild(udsolgttekst);
+
+
+    } else {
+        klon.querySelector(".pris").classList.add(".udsolgt")
+
+
+    }
+
 
     // append klon til .produkt_liste
     document.querySelector(".produktliste").appendChild(klon);
