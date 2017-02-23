@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Titel på dit site</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="russisk.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <section class="row">
+            <header class="col-xs-12 overskrift">
+                <h1>Restaurant Petrograd</h1></header>
+        </section>
+        <section class="row">
+            <div class="col-xs-12">
+                <h2>Side Orders</h2>
+            </div>
+
+        </section>
+        <section class="row">
+            <div class="col-xs-12 col-md-6 col-lg-6 kartofler">
+                <h3>Kogte kartofler</h3>
+                <img src="imgs/small/kartofler-sm.jpg" alt="kartofler">
+                <p>Kogte kartofler med Murmanske krydderurter
+                    <br> 29,-
+                </p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                    Mere information
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Detaljer</h4>
+                            </div>
+                            <div class="modal-body">
+                                Oprindelsesregion: Murmansk
+                                <br> Vegetar: 1
+                                <br> Allergener: 0
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-6 russisksalat">
+                <h3>Russisk salat</h3>
+                <img src="imgs/small/russisksalat-sm.jpg" alt="russisksalat">
+                <p>Russisk salat med ærter, bønner, gulerødder og mayonnaise fra Volgograd
+                    <br> 49,-</p>
+
+            </div>
+
+        </section>
+
+        <section class="row">
+
+            <div class="col-xs-12 col-md-6 col-lg-6 russiskringbroed">
+                <h3>Russisk ringbrød</h3>
+                <img src="imgs/small/ringbroed-sm.jpg" alt="russiskringbroed">
+                <p>Russisk ringbrød bagt med det fineste gryzni-mel fra Gryzkigistan
+                    <br> 29,-</p>
+
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-6 bondeboller">
+                <h3>Bonde Boller</h3>
+                <img src="imgs/small/bondeboller-sm.jpg" alt="bondeboller">
+                <p>Murmanske bondeboller bagt i stenovn
+                    <br> 19,-</p>
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- jQuery Version 1.11.1 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
